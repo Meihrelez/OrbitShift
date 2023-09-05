@@ -37,10 +37,14 @@
 
     color: #77ffc0;
 
+}
+.left > h2{
+
+    color: red
 } 
 
 img{
-    border: 1px solid red;
+    
     max-height: 80%;
     min-height: 60%;
 
@@ -48,7 +52,7 @@ img{
 
 .right{
     /*Lado direito da página*/
-    border: 1px solid red;
+    
     width: 50vw;
     height: 100vh;
     display: flex;
@@ -79,6 +83,7 @@ img{
     color: #77ffc0;
     font-weight: 800;
 }
+
 
 .textfield{
     /*
@@ -151,5 +156,33 @@ label{
     transition: background 0.1s;
     background: #90ffc9
 }
+
+#rodape{
+    background: rgba(255, 0, 0, 0.705);
+    margin: 0px;
+    padding: 5px;
+   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#descrição > h2{
+    
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+#life{
+    color: white;
+}
+
+#dead{
+    color: black;
+}
+
 
 
